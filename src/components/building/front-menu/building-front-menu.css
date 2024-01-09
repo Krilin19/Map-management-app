@@ -1,0 +1,22 @@
+.front-menu {
+    position: absolute;
+    height: 80vh;
+    min-width: 60%;
+    z-index: 1;
+  }
+  
+  .front-menu-content {
+    margin: 1rem;
+  }
+  
+  .front-menu-header {
+    display: flex;
+  }
+  
+  .front-menu-header > Button {
+    margin-left: auto;
+  }
+
+  .margin-left {
+    margin-left: 15px;
+  }

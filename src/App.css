@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Helvetica, sans-serif;
+  }
+  
+  .full-screen {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+  
+  
+  .thumbnail {
+    background: rgba(252, 252, 252, 0.7);
+    padding: 8px;
+    border-radius: 20%;
+    border: 3px solid rgb(255, 65, 65);
+    pointer-events: all;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .thumbnail:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  /* Remove arrows from number inputs */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.hidden {
+  visibility: collapse;
+}
