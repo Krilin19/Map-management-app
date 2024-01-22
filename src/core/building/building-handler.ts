@@ -1,7 +1,5 @@
 import { BuildingScene } from "./building-scene";
 
-
-
 export const buildingHandler = {
   viewer: null as BuildingScene | null,
 

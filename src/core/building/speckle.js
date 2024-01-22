@@ -72,7 +72,7 @@ function SpeckleLoader2() {
             /** Create a loader for the speckle stream */
             const loader2 = new SpeckleLoader(
               viewer.getWorldTree(),
-              "https://speckle.xyz/streams/be30a7a94b/commits/56a74ccf87",
+              "https://latest.speckle.dev/streams/92b620fb17/objects/32978115e9bb09a43407d535ea313a09",
               ""
             );
             /** Load the speckle data */

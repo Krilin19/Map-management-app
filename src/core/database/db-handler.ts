@@ -1,14 +1,7 @@
-
 import { getApp } from "firebase/app";
-import {
-  getAuth,
-  signInWithPopup,
-  GoogleAuthProvider,
-  signOut,
-} from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, } from "firebase/auth";
 import { deleteDoc, doc, getFirestore, updateDoc } from "firebase/firestore";
 import { Events } from "../../middleware/event-handler";
-
 import { Building, Model } from "../map/types";
 import { getStorage, ref, uploadBytes, deleteObject } from "firebase/storage";
 

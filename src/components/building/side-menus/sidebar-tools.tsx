@@ -37,6 +37,13 @@ export function getSidebarTools(
       },
     },
     {
+      name: "Speckle Models",
+      icon: <ModelsIcon />,
+      action: () => {
+        dispatch({ type: "OPEN_SPECKLE_BUILDING" });
+      },
+    },
+    {
       name: "Map",
       icon: <MapIcon />,
       action: () => {

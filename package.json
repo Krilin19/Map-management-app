@@ -30,6 +30,7 @@
   },
   "scripts": {
     "homepage": "https://krilin19.github.io/Map-management-app",
+    
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
